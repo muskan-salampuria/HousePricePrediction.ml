@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+h1{
+  margin-top: 2%;
+  text-align: center;
+  color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+  overflow: hidden;
+  margin-left: 6%;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.switch-field input:checked + label {
+	background-color: #dc86c7;
+  box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch-field label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+
+.form {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 20%;
+  padding: 20px;
+}
+
+h2 {
+	font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 13%;
+}
+.area{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 35px;
+  border-radius: 5px;
+  margin-left: 13%;
+}
+
+.location{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 76%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 13%;
+}
+
+.submit{
+  background: #72035a;
+  width: 76%;
+  border: 0;
+  margin: 25px 0 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+	height: 35px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin-left: 13%;;
+}
+
+.result{
+		background:  rgb(0, 104, 104);
+		width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+		font-size: 15px;
+    height: 40px;
+    margin-left: 0px;
+    color: rgb(224, 245, 147);
+    border-radius: 2px;
+    display: block;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.img {
+    background: url(h.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size:100% 100%;
+    filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container{
+  height: 91%;
+}
+body, html {
+  height: 100%;
+}
+strong{
+  color: yellow;
+}
+footer{
+  text-align: center;
+}
+@media (min-width: 1200px)
+{
+  .form{
+    width: 20%;
+  }
+  .switch-field{
+    margin-left: 14%;
+  }
+  .container{
+    height: 92%;
+  }
+}
+@media (max-width: 1125px){
+   .form{
+     width: 30%;
+   }
+   .switch-field{
+     margin-left: 12%;
+   }
+   .container{
+    height: 92%;
+  }
+}
+@media (max-width: 970px){
+  .form{
+    width: 30%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+  .container{
+    height: 92%;
+  }
+}
+@media (max-width: 800px){
+  .form{
+    width: 35%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+  .container{
+    height: 93%;
+  }
+}
+@media (max-width: 690px){
+  .form{
+    width: 40%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+  .container{
+    height: 93%;
+  }
+}
+@media (max-width: 608px){
+  .form{
+    width: 45%;
+    top: 53%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+}
+@media (max-width: 578px){
+  .form{
+    width: 50%;
+    top: 56%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+  .container{
+    height: 96%;
+  }
+}
+@media (max-width: 450px){
+  .form{
+    width: 62%;
+    top: 55%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+}
+@media (max-width: 384px){
+  .form{
+    width: 75%;
+    top: 60%;
+  }
+  .switch-field{
+    margin-left: 12%;
+  }
+  .container{
+    height: 102%;
+  }
+}
+@media (max-width: 384px){
+  .form{
+    width: 75%;
+    top:61%;
+  }
+  .switch-field{
+    margin-left: 8%;
+  }
+}
+@media (max-width: 260px){
+  .form{
+    width: 80%;
+    top: 63%;
+  }
+  .switch-field{
+    margin-left: 8%;
+  }
+  .container{
+    height: 107%;
+  }
+}
+@media (max-width: 210px){
+  .form{
+    width: 80%;
+    top: 70%;
+  }
+  .switch-field{
+    margin-left: 8%;
+  }
+  .container{
+    height: 115%;
+  }
+}
